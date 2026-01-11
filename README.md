@@ -1,6 +1,29 @@
 # TinderALike Project:
-- Create A Vite + React Application.
-- Craete a Repository in github.
-- Git Initialization
-    - git init
-    - git commit -m "first commit"
+- Tech Stack =>
+    - Vite
+    - React
+    - TailwindCss
+    - Daisy UI
+
+- Implementation =>
+    - Create A Vite + React Application.
+    - Craete a Repository in github.
+    - Git Initialization :
+        - git init
+        - git branch -M main
+        - git add .
+        - git commit -m "first commit"
+        - git remote add origin https://github.com/Saquib472/TinderALike.git (git branch)
+        - git push -u origin main
+    - Remove unnecessary codes and craete a Hello World App.
+    - Install TailwindCSS.
+    - Install Daisy UI.
+        - npm install tailwindcss@latest @tailwindcss/vite@latest daisyui@latest
+        - Add Tailwind CSS to Vite config
+        - Add in main css file - @import "tailwindcss"; @plugin "daisyui";
+    - Create a NavBar.jsx Component and Add navbar component code from daisy UI and Add it to App.jsx And Check.
+    - Enable Routing : 
+        - npm i react-router
+        - BrowserRouter > Routes > Route=/ Body > Childern Route
+        - Use Outlet inside Body to render the children routes.
+    - Create Feed.jsx, Login.jsx , Connections.jsx, Profile.jsx 
